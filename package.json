@@ -28,13 +28,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alisa-Bogatyryova/goit-react-hw-02-feedback"
+    "url": "git+https://github.com/Alisa-Bogatyryova/goit-react-hw-04-hooks-feedback"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/Alisa-Bogatyryova/goit-react-hw-02-feedback"
+    "url": "https://github.com/Alisa-Bogatyryova/goit-react-hw-04-hooks-feedback"
   },
-  "homepage": "https://alisa-bogatyryova.github.io/goit-react-hw-02-feedback/",
+  "homepage": "https://alisa-bogatyryova.github.io/goit-react-hw-04-hooks-feedback/",
   "eslintConfig": {
     "extends": [
       "react-app",
