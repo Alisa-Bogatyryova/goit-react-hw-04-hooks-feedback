@@ -10,7 +10,10 @@ const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
+  
+
   const clickHandler = event => {
+    // eslint-disable-next-line
     switch (event.target.name) {
       case 'good':
         return setGood(prevState => prevState + 1);
@@ -29,9 +32,8 @@ const App = () => {
 
   return (
     <Container>
-      <CardInterface>
         <Section title="Please leave feedback">
-          <FeedbackOptions onLeaveFeedback={clickHandler} />
+        <FeedbackOptions onLeaveFeedback={clickHandler} />
         </Section>
         <Section title="Statistics">
           {total ? (
@@ -46,7 +48,6 @@ const App = () => {
             <Notification message="No feedback given" />
           )}
         </Section>
-      </CardInterface>
     </Container>
   );
 };
